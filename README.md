@@ -1,4 +1,4 @@
-# 3D_Space_Mouse
+# 3D Space Mouse
 
 A USB HID 6‑DoF "space mouse" implementation for Raspberry Pi Pico using three MLX90393 magnetometers. The Pico exposes a generic gamepad HID (X, Y, Z, Rx, Ry, Rz) over USB and sends machine-readable sensor/debug output to the serial port for integration.
 
@@ -94,8 +94,10 @@ The HID report contains 6 int8 axes mapped to X,Y,Z,Rx,Ry,Rz and a buttons bitma
   - Ensure the board is running and not stuck (use LED/debug prints)
 
 ## CAD Models
-![alt text](image.png)
-![alt text](image-1.png)
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/6a231582-4df6-4898-b724-f7ee63f01a5b" />
+
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/07f26fb4-b1c8-4aea-8485-6f3febabee55" />
+
 ## Contributing
 - Bug reports, PRs and improvements are welcome.
 - Please describe hardware used and any wiring changes when submitting sensor-related fixes.
