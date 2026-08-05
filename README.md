@@ -46,6 +46,17 @@ Physical placement: sensors should be arranged around the knob (unit circle, ~12
   - adafruit/Adafruit MLX90393
   - adafruit/Adafruit BusIO
 
+## BOM
+| S.No. | Component | Quantity | Description / Purpose |
+|---:|---|---:|---|
+| 1 | Raspberry Pi Pico | 1 | Main microcontroller and USB HID interface |
+| 2 | MLX90393 Magnetometer Breakout | 3 | Detects magnetic field changes for 6-DoF movement |
+| 3 | Neodymium Magnet | 3 | Provides the magnetic field detected by the sensors |
+| 4 | 3D Printed Part – Base | 1 | Holds the sensors and electronics |
+| 5 | 3D Printed Part – Knob | 1 | Moving control knob containing the magnets |
+| 6 | Jumper Wires | As required | Connects the Pico to the three MLX90393 sensors |
+| 7 | USB Cable | 1 | Powers, programs, and connects the Pico to the computer |
+
 ## Build & Flash (PlatformIO)
 From the repository root:
 - Build: pio run -e pico
@@ -88,7 +99,6 @@ The HID report contains 6 int8 axes mapped to X,Y,Z,Rx,Ry,Rz and a buttons bitma
   - Use an I2C scanner to confirm addresses on the bus
 - USB/HID not recognized:
   - Ensure the Pico is in normal USB device mode and your USB cable supports data (not charge-only)
-  - PlatformIO sets a test USB PID (0x1209/0x0001). Do not distribute firmware with the test PID; change to a vendor-approved PID when shipping.
 - No serial output:
   - Check Baud (115200) and correct serial port
   - Ensure the board is running and not stuck (use LED/debug prints)
@@ -97,6 +107,9 @@ The HID report contains 6 int8 axes mapped to X,Y,Z,Rx,Ry,Rz and a buttons bitma
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/6a231582-4df6-4898-b724-f7ee63f01a5b" />
 
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/07f26fb4-b1c8-4aea-8485-6f3febabee55" />
+
+## Assembly
+The top part with magnetic housing goes into the base plate then connect the magnetometers and fix them in the gaps add magnets in housing and then just download the code folder open with vscode+platform io and just choose env pico and upload
 
 ## Contributing
 - Bug reports, PRs and improvements are welcome.
