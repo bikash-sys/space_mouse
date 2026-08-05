@@ -47,15 +47,13 @@ Physical placement: sensors should be arranged around the knob (unit circle, ~12
   - adafruit/Adafruit BusIO
 
 ## BOM
-| S.No. | Component | Quantity | Description / Purpose |
-|---:|---|---:|---|
-| 1 | Raspberry Pi Pico | 1 | Main microcontroller and USB HID interface |
-| 2 | MLX90393 Magnetometer Breakout | 3 | Detects magnetic field changes for 6-DoF movement |
-| 3 | Neodymium Magnet | 3 | Provides the magnetic field detected by the sensors |
-| 4 | 3D Printed Part – Base | 1 | Holds the sensors and electronics |
-| 5 | 3D Printed Part – Knob | 1 | Moving control knob containing the magnets |
-| 6 | Jumper Wires | As required | Connects the Pico to the three MLX90393 sensors |
-| 7 | USB Cable | 1 | Powers, programs, and connects the Pico to the computer |
+| S.No. | Component | Qty | Unit Price | Total | Purchase |
+|---:|---|---:|---:|---:|---|
+| 1 | Raspberry Pi Pico | 1 | $4.10 | **$4.10** | [Robu.in – Raspberry Pi Pico](https://robu.in/product/raspberry-pi-pico/) |
+| 2 | SmartElex MLX90393 Triple-Axis Magnetometer | 3 | $3.00 | **$9.00** | [Robocraze – MLX90393](https://robocraze.com/products/smartelex-mlx90393-triple-axis-magnetometer-high-precision-magnetic-field-sensor) |
+| 3 | 10 × 10 × 10 mm Neodymium Block Magnet | 3 | $1.40 | **$4.20** | [ElectroPi – Neodymium Magnet](https://www.electropi.in/10mm-x-10mm-x-10mm-10x10x10-mm-neodymium-block-magnet) |
+| 4 | 3D Printed Base | 1 | — | — | Self printed |
+| 5 | 3D Printed Knob | 1 | — | — | Self printed |
 
 ## Build & Flash (PlatformIO)
 From the repository root:
