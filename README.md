@@ -109,6 +109,9 @@ The HID report contains 6 int8 axes mapped to X,Y,Z,Rx,Ry,Rz and a buttons bitma
 ## Assembly
 The top part with magnetic housing goes into the base plate then connect the magnetometers and fix them in the gaps add magnets in housing and then just download the code folder open with vscode+platform io and just choose env pico and upload
 
+## Build
+<img width="1599" height="1200" alt="image" src="https://github.com/user-attachments/assets/fa500a0a-3d74-455a-9206-c3ba1f9b4e63" />
+
 ## Contributing
 - Bug reports, PRs and improvements are welcome.
 - Please describe hardware used and any wiring changes when submitting sensor-related fixes.
