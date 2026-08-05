@@ -116,5 +116,4 @@ The top part with magnetic housing goes into the base plate then connect the mag
 - Bug reports, PRs and improvements are welcome.
 - Please describe hardware used and any wiring changes when submitting sensor-related fixes.
 
-## License
-No license file is included in the repository. If you plan to use or distribute this project, add an appropriate LICENSE file (e.g., MIT, Apache-2.0) to clarify permissions.
+
