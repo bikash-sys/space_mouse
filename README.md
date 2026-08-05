@@ -51,7 +51,7 @@ Physical placement: sensors should be arranged around the knob (unit circle, ~12
 |---:|---|---:|---:|---:|---|
 | 1 | Raspberry Pi Pico | 1 | $4.10 | **$4.10** | [Robu.in – Raspberry Pi Pico](https://robu.in/product/raspberry-pi-pico/) |
 | 2 | SmartElex MLX90393 Triple-Axis Magnetometer | 3 | $3.00 | **$9.00** | [Robocraze – MLX90393](https://robocraze.com/products/smartelex-mlx90393-triple-axis-magnetometer-high-precision-magnetic-field-sensor) |
-| 3 | 10 × 10 × 10 mm Neodymium Block Magnet | 3 | - | **$4.20** | [ElectroPi – Neodymium Magnet](https://www.electropi.in/10mm-x-10mm-x-10mm-10x10x10-mm-neodymium-block-magnet) |
+| 3 | 10 × 10 × 10 mm Neodymium Block Magnet | 3 | - | **$1.40** | [ElectroPi – Neodymium Magnet](https://www.electropi.in/10mm-x-10mm-x-10mm-10x10x10-mm-neodymium-block-magnet) |
 | 4 | 3D Printed Base | 1 | — | — | Self printed |
 | 5 | 3D Printed Knob | 1 | — | — | Self printed |
 
