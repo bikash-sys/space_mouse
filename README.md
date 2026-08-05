@@ -37,6 +37,10 @@ Physical placement: sensors should be arranged around the knob (unit circle, ~12
 - mag2: top-left
 - mag3: top-right
 
+## Wiring
+<img width="779" height="673" alt="Screenshot 2026-08-05 at 11 19 41 PM" src="https://github.com/user-attachments/assets/4507ca3d-b6a4-492c-a965-1e1c7cf49fb8" />
+{im really sorry for such wiring but I had no option I cant find the exact magnetometer any where hope u get it }
+
 ## Software dependencies
 - PlatformIO
 - Platform: maxgerhardt/platform-raspberrypi (as referenced in platformio.ini)
